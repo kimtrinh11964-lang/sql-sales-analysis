@@ -1,6 +1,9 @@
 -- Business Question:
 -- What is the current inventory level by product category?
 
+-- Purpose:
+-- Assess inventory status to evaluate business performance and actual demand, supporting inventory optimization and stock value management.
+
 SELECT 
 	PC.ProductCategoryID,
 	PC.Name,
