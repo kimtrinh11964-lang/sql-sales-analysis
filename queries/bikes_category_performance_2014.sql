@@ -1,6 +1,9 @@
 -- Business Question:
 -- How did the Bikes category perform in 2014 in terms of sales quantity, revenue, and percentage contribution compared to other categories?
 
+-- Purpose:
+-- Identify high-performing and underperforming products within the Bikes category to support product portfolio optimization.
+
 DECLARE @BikesTotalSalesAmount14 MONEY 
 SET @BikesTotalSalesAmount14 = 
 	(SELECT SUM(SOD.LineTotal)
