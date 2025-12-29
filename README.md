@@ -4,7 +4,7 @@
 Sales performance, inventory status, revenue trends and basket analysis using SQL.
 
 ## Dataset
-AdventureWorks2017 – Sales.SalesOrderHeader table.
+AdventureWorks2017.
 
 ## SQL Skills Used
 - Aggregation: SUM, COUNT, GROUP BY,...
@@ -24,3 +24,4 @@ AdventureWorks2017 – Sales.SalesOrderHeader table.
 - Performed year-over-year (YoY) revenue comparison between Q2 2014 and Q2 of the previous year.
 - Analyzed quarterly revenue trends by product category over time.
 - Evaluated purchasing reasons by product category across historical periods.
+- Identify products frequently purchased together to support cross-selling and bundle promotions.
