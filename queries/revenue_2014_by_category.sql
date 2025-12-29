@@ -1,6 +1,9 @@
 -- Business Question:
 -- How much total revenue did each product category generate in 2014?
 
+-- Purpose:
+-- Support decisions on selecting and developing product categories with strong financial potential.
+
 DECLARE @TotalSalesAmount14 MONEY 
 SET @TotalSalesAmount14 = 
 	(SELECT SUM(SOD.LineTotal)
