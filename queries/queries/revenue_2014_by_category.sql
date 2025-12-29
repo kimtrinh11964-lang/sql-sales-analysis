@@ -1,4 +1,5 @@
-
+-- Business Question:
+-- How much total revenue did each product category generate in 2014?
 
 DECLARE @TotalSalesAmount14 MONEY 
 SET @TotalSalesAmount14 = 
