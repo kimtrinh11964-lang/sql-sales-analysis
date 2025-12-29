@@ -1,6 +1,9 @@
 -- Business Question:
 -- What was the sales performance in June 2014?
 
+-- Purpose:
+-- Identify products that performed well or poorly in the most recent business month to support short-term sales adjustments.
+
 WITH TotalSalesAmount AS(
 	SELECT 
 		P.ProductID,
